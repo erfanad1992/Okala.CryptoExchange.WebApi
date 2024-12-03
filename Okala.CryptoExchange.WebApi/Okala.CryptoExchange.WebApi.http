@@ -1,0 +1,6 @@
+@Okala.CryptoExchange.WebApi_HostAddress = http://localhost:5168
+
+GET {{Okala.CryptoExchange.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
