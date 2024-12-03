@@ -1,6 +1,6 @@
 @Okala.CryptoExchange.WebApi_HostAddress = http://localhost:5168
 
-GET {{Okala.CryptoExchange.WebApi_HostAddress}}/weatherforecast/
+GET {{Okala.CryptoExchange.WebApi_HostAddress}}/api/CryptoExChange/quote?symbol=BTC&convertSymbols=USD,EUR,BRL,GBP,AUD
 Accept: application/json
 
 ###

@@ -1,4 +1,4 @@
-﻿using Okala.CryptoExchange.EfPersistance.DI;
+﻿using Okala.CryptoExchange.ACL.DI;
 namespace Okala.CryptoExchange.WebApi.DI
 {
     internal static class ServiceCollectionExtensions
@@ -6,12 +6,12 @@ namespace Okala.CryptoExchange.WebApi.DI
         public static IServiceCollection ConfigureServices(this IServiceCollection services, IConfiguration configuration)
         {
             //----------- Infra -----------
-            services.AddPersistenceEntityFrameworkServices(configuration);
+            services.AddACLServices(configuration);
 
             //------------ Endpoint -------
 
             services.AddControllers();
-           
+
             services.AddEndpointsApiExplorer();
             services.AddSwaggerGen();
 

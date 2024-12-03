@@ -1,4 +1,5 @@
 using Okala.CryptoExchange.WebApi.DI;
+using Okala.CryptoExchange.WebApi.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +11,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseMiddleware<ExceptionHandlingMiddleware>();
+app.UseRouting();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
