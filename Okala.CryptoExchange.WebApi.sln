@@ -17,6 +17,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Okala.CryptoExchange.ACL", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Okala.CryptoExchange.Identity", "Okala.CryptoExchange.Identity\Okala.CryptoExchange.Identity.csproj", "{06A1581B-DBB8-4B40-A78F-7A5BA83B37B6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7BEA1191-6577-4F89-B574-2A1776CDF30B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Okala.CryptoExchange.Tests", "Okala.CryptoExchange.Tests\Okala.CryptoExchange.Tests.csproj", "{B822C4A4-188E-498B-A75C-A125D761AD45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,10 @@ Global
 		{06A1581B-DBB8-4B40-A78F-7A5BA83B37B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06A1581B-DBB8-4B40-A78F-7A5BA83B37B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06A1581B-DBB8-4B40-A78F-7A5BA83B37B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B822C4A4-188E-498B-A75C-A125D761AD45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B822C4A4-188E-498B-A75C-A125D761AD45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B822C4A4-188E-498B-A75C-A125D761AD45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B822C4A4-188E-498B-A75C-A125D761AD45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +56,7 @@ Global
 		{5E1BEA21-B65B-4A6A-8405-C99187F24855} = {7E53D772-6DF3-4502-A112-0D477DFBB75F}
 		{98D3FC7C-6851-46EE-B05D-9D93BECC38AF} = {47A0382C-5CA9-468F-9021-AFB6BCCC1F68}
 		{06A1581B-DBB8-4B40-A78F-7A5BA83B37B6} = {47A0382C-5CA9-468F-9021-AFB6BCCC1F68}
+		{B822C4A4-188E-498B-A75C-A125D761AD45} = {7BEA1191-6577-4F89-B574-2A1776CDF30B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {453B190C-7706-4A0C-A584-F081C452A9F8}
