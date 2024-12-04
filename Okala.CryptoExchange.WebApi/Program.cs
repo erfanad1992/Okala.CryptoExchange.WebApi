@@ -15,6 +15,7 @@ app.UseMiddleware<ExceptionHandlingMiddleware>();
 app.UseRouting();
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

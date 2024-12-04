@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Okala.CryptoExchange.ACL\Okala.CryptoExchange.ACL.csproj" />
+    <ProjectReference Include="..\Okala.CryptoExchange.Identity\Okala.CryptoExchange.Identity.csproj" />
   </ItemGroup>
 
 </Project>
