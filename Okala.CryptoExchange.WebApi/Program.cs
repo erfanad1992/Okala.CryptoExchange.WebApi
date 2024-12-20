@@ -15,6 +15,7 @@ app.UseMiddleware<ExceptionHandlingMiddleware>();
 app.UseRouting();
 app.UseHttpsRedirection();
 
+app.UseMiddleware<JwtTokenValidationMiddleware>();
 app.UseAuthentication();
 app.UseAuthorization();
 
